@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors({
   origin: [
-    'https://warm-naiad-8914d4.netlify.app',
+    'https://thermal-insight.netlify.app',
     'http://localhost',
     'null',
   ],
