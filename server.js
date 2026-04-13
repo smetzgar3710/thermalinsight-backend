@@ -3,7 +3,14 @@ const sql = require('mssql');
 const cors = require('cors');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: [
+    'https://warm-naiad-8914d4.netlify.app',
+    'http://localhost',
+    'null',
+  ],
+  methods: ['GET'],
+}));
 app.use(express.json());
 
 // ── Database Configuration ──────────────────────────────────────────────────
