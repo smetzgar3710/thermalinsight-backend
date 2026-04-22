@@ -18,7 +18,7 @@ app.use(express.json());
 const dbConfig = {
   user: 'ThermalInsightReader',
   password: 'TIReader2024!',
-  server: 'THERMAL-ONE',            // Replace with external IP/hostname from Meriplex
+  server: '69.73.16.130',
   database: 'ThermalMIETrakLive',
   port: 1433,
   options: {
