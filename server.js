@@ -22,7 +22,7 @@ const dbConfig = {
   database: 'ThermalMIETrakLive',
   port: 1433,
   options: {
-    encrypt: true,
+    encrypt: false,
     trustServerCertificate: true,
     enableArithAbort: true,
   },
