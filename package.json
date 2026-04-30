@@ -8,9 +8,10 @@
     "install-service": "node-windows install",
     "uninstall-service": "node-windows uninstall"
   },
-  "dependencies": {
+"dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mssql": "^10.0.1"
+    "mssql": "^10.0.1",
+    "node-fetch": "^2.6.9"
   }
 }
