@@ -621,6 +621,7 @@ app.post('/api/ai', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+app.set('trust proxy', true);
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`ThermalInsight API  →  http://localhost:${PORT}`);
